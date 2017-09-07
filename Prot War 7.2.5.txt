@@ -1,0 +1,125 @@
+Sequences['P_war'] = {
+-- This Sequence was exported from GSE 2.1.07.
+  Author="supadupa",
+  SpecID=73,
+  Talents = "1,2,2,3,2,1,2",
+  Default=1,
+  MacroVersions = {
+    [1] = {
+      StepFunction = "Priority",
+      KeyPress={
+        "/targetenemy [noharm][dead]",
+      },
+      PreMacro={
+      },
+        "/castsequence Devastate",
+        "/castsequence Shield Slam",
+        "/castsequence Revenge",
+        "/castsequence Ignore Pain",
+        "/cast [combat] Shield Block",
+        "/cast [combat] Spell Reflection",
+        "/castsequence Focused Rage",
+        "/castsequence [combat] Thunder Clap",
+        "/castsequence [combat] Shockwave",
+        "/cast Impending Victory",
+        "/cast [combat] Heroic Throw",
+      PostMacro={
+      },
+      KeyRelease={
+        "/cast [combat] Demoralizing Shout",
+        "/cast [combat] Battle Cry",
+      },
+    },
+    [2] = {
+      StepFunction = "Sequential",
+      KeyPress={
+        "/targetenemy [noharm][dead]",
+        "/startattack",
+      },
+      PreMacro={
+      },
+        "/castsequence [combat] Shield Slam, Revenge, Shield Bash, Thunder Clap, Impending Victory",
+        "/castsequence [combat] !Shockwave",
+        "/castsequence [combat] !Ignore Pain, !Shield Block, !Spell Reflection",
+        "/cast [combat] Heroic Throw",
+        "/startattack",
+      PostMacro={
+      },
+      KeyRelease={
+        "/startattack",
+        "/cast [combat] Demoralizing Shout",
+        "/cast [combat] Battle Cry",
+      },
+    },
+  },
+}
+
+
+
+Sequences['P_war'] = {
+-- This Sequence was exported from GSE 2.1.07.
+  Author="supadupa",
+  SpecID=73,
+  Talents = "1,2,2,3,2,1,2",
+  Default=1,
+  MacroVersions = {
+    [1] = {
+      StepFunction = "Sequential",
+      KeyPress={
+        "/targetenemy [noharm][dead]",
+      },
+      PreMacro={
+      },
+        "/castsequence Devastate",
+        "/castsequence Shield Slam",
+        "/castsequence Revenge",
+        "/castsequence Ignore Pain",
+        "/cast [combat] Shield Block",
+        "/cast [combat] Spell Reflection",
+        "/castsequence Focused Rage",
+        "/castsequence [combat] Thunder Clap, Shield Block, Spell Reflection",
+        "/castsequence [combat] Shockwave",
+        "/castsequence Shield Slam",
+        "/cast Impending Victory",
+        "/cast [combat] Heroic Throw",
+      PostMacro={
+      },
+      KeyRelease={
+        "/cast [combat] Demoralizing Shout",
+        "/cast [combat] Battle Cry",
+      },
+    },
+  },
+}
+
+
+
+
+CD
+/cast [combat] Battle Cry
+/cast [combat] Demoralizing Shout
+/cast [combat] Avatar
+/cast [combat] Berserker Rage
+/cast [combat] Berserking
+
+
+DEF
+/cast [combat] Last Stand
+/cast [combat] Berserker Rage
+/cast [combat] Shield Wall
+/use [combat] Healthstone
+/cast [combat] Neltharion's Fury
+
+RAV
+#showtooltip
+/cast [@cursor] Ravager
+
+INT
+/cast [combat] Pummel
+/cast [combat] Shockwave
+/cast [combat] Disarm
+
+P_HL
+/cast [@cursor] Heroic Leap
+/cast Thunder Clap
+/cast Disarm
