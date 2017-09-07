@@ -1,0 +1,37 @@
+https://www.raidbots.com/simbot/report/azBSmHtGmStavbPMcpL3Qx
+
+https://www.raidbots.com/simbot/report/74zeXxP9FQAfti9eorj5wN
+( Pawn: v1: "Switchtarget - Affliction (Raidbots)": Class=Warlock, Spec=Affliction, Intellect=9.31, CritRating=4.22, HasteRating=4.81, MasteryRating=4.96, Versatility=3.45 )
+
+AFF
+/cast [nochanneling] Agony
+/cast [nochanneling] Corruption
+/castsequence [nochanneling] Unstable Affliction, Unstable Affliction, Unstable Affliction, Unstable Affliction
+/castsequence [nochanneling] Reap Souls
+
+AFF_DS
+/castsequence [nochanneling] reset=target  Drain Soul, agony, corruption, Drain Soul, agony, corruption
+
+AFF_UA
+/cast [nochanneling] reap souls
+/cast [nochanneling] unstable affliction
+/cast [nochanneling] unstable affliction
+/cast [nochanneling] unstable affliction
+/cast [nochanneling] unstable affliction
+/cast [nochanneling] agony
+/cast [nochanneling] corruption
+
+AFF_DOT
+/castsequence [@mouseover] agony
+/castsequence [@mouseover] corruption
+
+
+
+AFF_DEF
+/cast Unending Resolve
+/cast Healthstone
+/cast [@cursor] Summon Infernal
+
+AFF_F
+/cast Howl of Terror
+/cast Fear
