@@ -5,33 +5,42 @@ https://www.raidbots.com/simbot/report/74zeXxP9FQAfti9eorj5wN
 
 AFF
 /cast [nochanneling] Agony
+/cast [nochanneling] Siphon Life
 /cast [nochanneling] Corruption
 /castsequence [nochanneling] Unstable Affliction, Unstable Affliction, Unstable Affliction, Unstable Affliction
-/castsequence [nochanneling] Reap Souls
+/cast[nochanneling] Reap Souls
 
 AFF_DS
-/castsequence [nochanneling] reset=target  Drain Soul, agony, corruption, Drain Soul, agony, corruption
+/castsequence [nochanneling] reset=target Drain Soul, Siphon Life, Drain Soul, agony, corruption
 
 AFF_UA
+/cast [nochanneling] unstable affliction
+/cast [nochanneling] unstable affliction
+/cast [nochanneling] unstable affliction
+/cast [nochanneling] unstable affliction
 /cast [nochanneling] reap souls
-/cast [nochanneling] unstable affliction
-/cast [nochanneling] unstable affliction
-/cast [nochanneling] unstable affliction
-/cast [nochanneling] unstable affliction
 /cast [nochanneling] agony
+/cast [nochanneling] Siphon Life
 /cast [nochanneling] corruption
 
 AFF_DOT
 /castsequence [@mouseover] agony
+/castsequence [@mouseover] Siphon Life
 /castsequence [@mouseover] corruption
 
 
 
 AFF_DEF
-/cast Unending Resolve
+/cast [nochanneling] Unending Resolve
 /cast Healthstone
 /cast [@cursor] Summon Infernal
+/cast [nochanneling] Phantom Singularity
+/cast [nochanneling] Mortal Coil
+/cast [nochanneling] Siphon Life
+/cast [nochanneling] Drain Soul
+
 
 AFF_F
-/cast Howl of Terror
-/cast Fear
+
+/cast [nochanneling] Fear
+/cast [nochanneling] Mortal Coil
