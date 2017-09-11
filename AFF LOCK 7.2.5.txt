@@ -32,15 +32,29 @@ AFF_DOT
 
 AFF_DEF
 /cast [nochanneling] Unending Resolve
-/cast Healthstone
-/cast [@cursor] Summon Infernal
+
 /cast [nochanneling] Phantom Singularity
-/cast [nochanneling] Mortal Coil
+
+/cast Mortal Coil
+/use Healthstone
+
+/cast Dark Pact
+
 /cast [nochanneling] Siphon Life
+
 /cast [nochanneling] Drain Soul
 
 
 AFF_F
 
+/cast Mortal Coil
+
 /cast [nochanneling] Fear
-/cast [nochanneling] Mortal Coil
+
+AFF_AOE
+/cast [nochanneling] Phantom Singularity
+
+/cast [nochanneling] Seed of Corruption
+
+/castsequence [nochanneling] reset=target Agony, Drain Soul, Siphon Life
+/cast[nochanneling] Reap Souls
