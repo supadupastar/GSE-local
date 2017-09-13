@@ -4,14 +4,17 @@ https://www.raidbots.com/simbot/report/74zeXxP9FQAfti9eorj5wN
 ( Pawn: v1: "Switchtarget - Affliction (Raidbots)": Class=Warlock, Spec=Affliction, Intellect=9.31, CritRating=4.22, HasteRating=4.81, MasteryRating=4.96, Versatility=3.45 )
 
 AFF
+/castsequence [nochanneling] reset=target Siphon Life, Agony, Corruption, Unstable Affliction, Drain Soul, Siphon Life
 /castsequence [nochanneling] reset=target Siphon Life, Agony, Corruption
 /castsequence [nochanneling] reset=target Unstable Affliction, Unstable Affliction, Unstable Affliction, Unstable Affliction
-/cast[nochanneling] Reap Souls
+/cast [nochanneling] Reap Souls
+/cast [nochanneling] Curse of Weakness
 /castsequence [nochanneling] reset=target Drain Soul, Siphon Life
 
 AFF_DS
 /cast [nochanneling] Reap Souls
-/castsequence [nochanneling] reset=target Drain Soul, Siphon Life
+/castsequence [nochanneling] reset=target Drain Soul, Drain Soul, Siphon Life, Drain Soul, Drain Soul, Siphon Life
+/cast [nochanneling] Siphon Life
 
 AFF_UA
 /castsequence [nochanneling] reset=target Unstable Affliction, Unstable Affliction, Unstable Affliction, Unstable Affliction
@@ -20,6 +23,7 @@ AFF_UA
 /castsequence [nochanneling] reset=target Drain Soul, Siphon Life
 
 AFF_DOT
+/castsequence [@mouseover] reset=target Siphon Life, Agony, Corruption
 /castsequence [@mouseover] agony
 /castsequence [@mouseover] Siphon Life
 /castsequence [@mouseover] corruption
@@ -32,6 +36,7 @@ AFF_DEF
 /cast [nochanneling] Phantom Singularity
 
 /cast Mortal Coil
+
 /use Healthstone
 
 /cast Dark Pact
@@ -42,9 +47,7 @@ AFF_DEF
 
 
 AFF_F
-
-/cast Mortal Coil
-
+/castsequence [@mouseover] Fear
 /cast [nochanneling] Fear
 
 AFF_AOE
@@ -52,5 +55,7 @@ AFF_AOE
 
 /cast [nochanneling] Seed of Corruption
 
-/castsequence [nochanneling] reset=target Agony, Drain Soul, Siphon Life
+/castsequence [nochanneling] reset=target Siphon Life, Agony, Corruption
+/cast [nochanneling] Soulshatter
 /cast[nochanneling] Reap Souls
+/castsequence [nochanneling] reset=target Drain Soul, Siphon Life
