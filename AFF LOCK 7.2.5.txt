@@ -13,37 +13,24 @@ AFF
 
 AFF_DS
 /cast [nochanneling] Reap Souls
-/castsequence [nochanneling] reset=target Drain Soul, Drain Soul, Siphon Life, Drain Soul, Drain Soul, Siphon Life
-/cast [nochanneling] Siphon Life
+/castsequence [nochanneling] reset=target Drain Soul, Drain Soul, Drain Soul, Unstable Affliction, Siphon Life
 
 AFF_UA
 /castsequence [nochanneling] reset=target Unstable Affliction, Unstable Affliction, Unstable Affliction, Unstable Affliction
-/castsequence [nochanneling] reset=target Siphon Life, Agony, Corruption
 /cast[nochanneling] Reap Souls
-/castsequence [nochanneling] reset=target Drain Soul, Siphon Life
 
 AFF_DOT
 /castsequence [@mouseover] reset=target Siphon Life, Agony, Corruption
-/castsequence [@mouseover] agony
-/castsequence [@mouseover] Siphon Life
-/castsequence [@mouseover] corruption
 
 
 
 AFF_DEF
 /cast [nochanneling] Unending Resolve
-
 /cast [nochanneling] Phantom Singularity
-
 /cast Mortal Coil
-
 /use Healthstone
-
 /cast Dark Pact
-
 /cast [nochanneling] Siphon Life
-
-/cast [nochanneling] Drain Soul
 
 
 AFF_F
@@ -52,10 +39,7 @@ AFF_F
 
 AFF_AOE
 /cast [nochanneling] Phantom Singularity
-
 /cast [nochanneling] Seed of Corruption
-
 /castsequence [nochanneling] reset=target Siphon Life, Agony, Corruption
 /cast [nochanneling] Soulshatter
 /cast[nochanneling] Reap Souls
-/castsequence [nochanneling] reset=target Drain Soul, Siphon Life
