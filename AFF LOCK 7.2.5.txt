@@ -16,11 +16,17 @@ AFF_DS
 /castsequence [nochanneling] reset=target Drain Soul, Drain Soul, Drain Soul, Unstable Affliction, Siphon Life
 
 AFF_UA
-/castsequence [nochanneling] reset=target Unstable Affliction, Unstable Affliction, Unstable Affliction, Unstable Affliction
+/castsequence [nochanneling] reset=target Unstable Affliction, Unstable Affliction, Curse of Shadows, Unstable Affliction, Unstable Affliction
 /cast[nochanneling] Reap Souls
 
 AFF_DOT
-/castsequence [@mouseover] reset=target Siphon Life, Agony, Corruption
+/castsequence [@mouseover] reset=target  Siphon Life, Agony, Corruption
+
+/cast [@mouseover] Siphon Life
+
+/cast [@mouseover] Agony
+
+/cast [@mouseover] Corruption
 
 
 
